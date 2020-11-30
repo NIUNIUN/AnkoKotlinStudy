@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="@dimen/comm_100dp"
+        android:layout_height="@dimen/comm_100dp"
+        android:layout_marginTop="@dimen/comm_40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/comm_10dp"
+        android:gravity="center"
+        android:text="null"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_head" />
+
+    <TextView
+        android:id="@+id/tv_dscr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/comm_10dp"
+        android:gravity="center"
+        android:text="热爱编程，等你来挑战"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_username" />
+
+    <View
+        android:id="@+id/line_1"
+        style="@style/ViewLine"
+        android:layout_height="@dimen/comm_5dp"
+        android:layout_marginTop="@dimen/comm_10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dscr" />
+
+    <TextView
+        android:id="@+id/tv_juejin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_40dp"
+        android:drawableLeft="@mipmap/ic_address"
+        android:drawablePadding="@dimen/comm_5dp"
+        android:drawableRight="@mipmap/ic_more"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/comm_10dp"
+        android:text="我的掘金"
+        app:layout_constraintTop_toBottomOf="@+id/line_1" />
+
+    <View
+        android:id="@+id/line_2"
+        style="@style/ViewLine"
+        app:layout_constraintTop_toBottomOf="@+id/tv_juejin" />
+
+    <TextView
+        android:id="@+id/tv_blog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_40dp"
+        android:drawableLeft="@mipmap/ic_address"
+        android:drawablePadding="@dimen/comm_5dp"
+        android:drawableRight="@mipmap/ic_more"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/comm_10dp"
+        android:text="我的博客园"
+        app:layout_constraintTop_toBottomOf="@+id/line_2" />
+
+    <View
+        android:id="@+id/line_3"
+        style="@style/ViewLine"
+        app:layout_constraintTop_toBottomOf="@+id/tv_blog" />
+
+    <TextView
+        android:id="@+id/tv_github"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_40dp"
+        android:drawableLeft="@mipmap/ic_github"
+        android:drawablePadding="@dimen/comm_5dp"
+        android:drawableRight="@mipmap/ic_more"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/comm_10dp"
+        android:text="我的github"
+        app:layout_constraintTop_toBottomOf="@+id/line_3" />
+
+    <View
+        android:id="@+id/line_4"
+        style="@style/ViewLine"
+        app:layout_constraintTop_toBottomOf="@+id/tv_github" />
+</android.support.constraint.ConstraintLayout>

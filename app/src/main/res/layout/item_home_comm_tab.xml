@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/comm_10dp"
+    android:paddingRight="@dimen/comm_10dp"
+    android:paddingTop="@dimen/comm_5dp"
+    android:background="@color/comm_white"
+    >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_20dp"
+        android:drawableLeft="@drawable/ic_personal"
+        android:drawablePadding="@dimen/comm_8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_20dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tv_name"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/comm_8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_updatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/comm_20dp"
+        android:layout_marginTop="@dimen/comm_8dp"
+        android:layout_marginBottom="@dimen/comm_5dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+ <!--   <View
+        style="@style/ViewLine"
+        android:layout_height="@dimen/comm_2dp"
+        android:layout_marginTop="@dimen/comm_8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_updatetime" />-->
+</android.support.constraint.ConstraintLayout>

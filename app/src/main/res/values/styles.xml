@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/comm_green_38b487</item>
+        <item name="colorPrimaryDark">@color/comm_green_38b487</item>
+        <item name="colorAccent">@color/comm_green_38b487</item>
+    </style>
+
+    <style name="ViewLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/comm_1dp</item>
+        <item name="android:background">@color/comm_gray_dfdede</item>
+    </style>
+</resources>

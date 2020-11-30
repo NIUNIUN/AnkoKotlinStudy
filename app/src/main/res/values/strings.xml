@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AnkoKotlinStudy</string>
+    <string name="main_home">首页</string>
+    <string name="main_picature">图片</string>
+    <string name="main_video">视频</string>
+    <string name="main_mime">我的</string>
+
+    <string name="home_android">Android</string>
+    <string name="home_ios">iOS</string>
+    <string name="home_h5">前端</string>
+
+
+</resources>

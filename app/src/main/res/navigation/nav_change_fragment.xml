@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navTestFragmentOne">
+
+    <fragment
+        android:id="@+id/navTestFragmentOne"
+        android:name="com.qinglianyun.ankokotlinstudy.view.NavTestFragmentOne"
+        android:label="NavTestFragmentOne"
+        tools:layout="@layout/fragment_layout_test1">
+        <action
+            android:id="@+id/action_navTestFragmentOne_to_navTestFragmentTwo"
+            app:destination="@id/navTestFragmentTwo" />
+        <action
+            android:id="@+id/action_navTestFragmentOne_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/navTestFragmentTwo"
+        android:name="com.qinglianyun.ankokotlinstudy.view.NavTestFragmentTwo"
+        android:label="NavTestFragmentTwo"
+        tools:layout="@layout/fragment_layout_test2">
+        <action
+            android:id="@+id/action_navTestFragmentTwo_to_mimeFragment2"
+            app:destination="@id/mimeFragment2" />
+
+        <action
+            android:id="@+id/action_navTestFragmentTwo_to_textFragmentOne"
+            app:destination="@id/navTestFragmentOne"/>
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.qinglianyun.ankokotlinstudy.view.NavTestFragmentThree"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/mimeFragment2"
+        android:name="com.qinglianyun.ankokotlinstudy.view.NavTestFragmentFour"
+        android:label="MimeFragment"
+        tools:layout="@layout/fragment_mime" />
+
+</navigation>

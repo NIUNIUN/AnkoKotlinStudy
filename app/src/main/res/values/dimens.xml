@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comm_0dp">0dp</dimen>
+    <dimen name="comm_0.5dp">0.5dp</dimen>
+    <dimen name="comm_1dp">1dp</dimen>
+    <dimen name="comm_2dp">2dp</dimen>
+    <dimen name="comm_5dp">5dp</dimen>
+    <dimen name="comm_8dp">8dp</dimen>
+    <dimen name="comm_10dp">10dp</dimen>
+    <dimen name="comm_15dp">15dp</dimen>
+    <dimen name="comm_20dp">20dp</dimen>
+    <dimen name="comm_30dp">30dp</dimen>
+    <dimen name="comm_40dp">40dp</dimen>
+    <dimen name="comm_45dp">45dp</dimen>
+    <dimen name="comm_50dp">50dp</dimen>
+    <dimen name="comm_100dp">100dp</dimen>
+    <dimen name="comm_150dp">150dp</dimen>
+    <dimen name="comm_450dp">450dp</dimen>
+
+</resources>
